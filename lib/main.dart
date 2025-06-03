@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:intl/date_symbol_data_local.dart';
 import 'package:scano/dat/scan_data.dart';
-import 'package:scano/screens/home_page.dart';
+import 'package:scano/screens/camera_scan_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -16,7 +16,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: HomePage(),
+      home: ScanCamera(),
       debugShowCheckedModeBanner: false,
     );
     /*
