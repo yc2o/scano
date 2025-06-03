@@ -3,8 +3,8 @@ import 'package:intl/intl.dart';
 import 'package:scano/dat/scan_data.dart';
 import 'package:scano/theme/app_colors.dart';
 
-class ScannoScreen extends StatelessWidget {
-  const ScannoScreen({Key? key}) : super(key: key);
+class HomePage extends StatelessWidget {
+  const HomePage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -26,13 +26,7 @@ class ScannoScreen extends StatelessWidget {
         children: [
           const Padding(
             padding: EdgeInsets.all(8.0),
-            child: Text(
-              'Hasil Scanning Dokumenmu',
-              style: TextStyle(
-                fontSize: 16,
-                color: Colors.black54,
-              ),
-            ),
+          
           ),
           Expanded(
             child: ListView.builder(

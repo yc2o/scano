@@ -16,7 +16,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: SavedScanScreen(scanData: scanDataMock),
+      home: HomePage(),
       debugShowCheckedModeBanner: false,
     );
     /*
