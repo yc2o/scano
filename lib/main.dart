@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:intl/date_symbol_data_local.dart';
 import 'package:scano/dat/scan_data.dart';
-import 'package:scano/screens/saved_scan_screen.dart';
+import 'package:scano/screens/home_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
